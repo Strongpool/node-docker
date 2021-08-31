@@ -33,4 +33,4 @@ jobs:
           build-args: |
             IMAGE_TAG=${{ env.IMAGE_TAG }}
           tags: |
-            ghcr.io/strongpool/nodejs:${{ env.IMAGE_TAG }}
+            ghcr.io/strongpool/node:${{ env.IMAGE_TAG }}
