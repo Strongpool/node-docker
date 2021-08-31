@@ -1,2 +1,2 @@
 ARG IMAGE_TAG
-FROM nodejs:${IMAGE_TAG}
+FROM node:${IMAGE_TAG}
