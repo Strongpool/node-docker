@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      IMAGE_TAG: 16-alpine
+      IMAGE_TAG: 14-alpine
     steps:
       ##
       ## Setup
